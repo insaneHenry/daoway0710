@@ -5,107 +5,8 @@
 body,html {
     height: 100%;
 }
-.main-service :nth-child(even) {
-    /*background: #FBF8F8;*/
-    /*background: blue;*/
+.
 
-}
- #header {
-    width: 100%;
-
-    /*background: pink;*/
-    border-bottom:1px solid #e5e5e5;
-    color: #121212;
-    font-weight:bold;
-}
- .navbar, .navbar .navbar-default  {
-     margin-bottom: 0 !important;
-     border: 0 !important;
- }
-.navbar .navbar-default {
-    padding: 2.5px 0;
-}
-.container {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-    height: 65px;
-    padding:0 15px;
-
-}
-.nav>li>a {
-    position: relative;
-    display: block;
-    padding: 20px 15px;
-}
-/*left*/
-.navbar-header {
-    float: left;
-}
-.navbar-brand .navbar-brand-img {
-    margin-top:-8px;
-}
-.navbar-brand>img {
-    display: block;
-}
-#position i {
-    color:#212121;
-    font-weight:bold;
-    font-style: normal;
-}
-#showCity {
-
-}
-/*right*/
-.collapse .navbar-collapse .navbar-right {
-    margin: auto;
-
-
-}
-.nav .navbar-nav {
-    float: left;
-}
-
-#position {
-    margin-right:50px;
-}
-#position i {
-    vertical-align: top;
-}
-.navbar-right {
-    float: right;
-}
-.navbar-nav>li {
-    float: left;
-
-}
-.navbar-nav>li>a {
-    color:#212121;
-    font-weight:bold;
-}
-#active > a {
-    color: #e94840;
-}
-.shanghu-right {
-    margin-right:10px;
-}
-.shanghu {
-    border-radius: 5px;
-    background: #e94840;
-    color: #fff !important;
-    padding: 4px 6px !important;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-
- .navbar-nav > li > a:hover {
-     color: #e94840  !important;
-     background-color: #fff;
- }
-.navbar-nav > li > a.shanghu:hover {
-     color: #fff !important;
-     background: #e94840 ;
- }
 /*轮播图*/
  .carousel-inner {
      height: 420px !important;
@@ -211,6 +112,20 @@ body,html {
      height: 100%;
      top: 0;
      left: 0;
+ }
+ .nav-detail {
+     position: relative;
+     left: 100%;
+     top: -104%;
+     display: none;
+ }
+ .banner-nav ul {
+     left: 100%;
+     top: -193%;
+     width: 180px;
+     background: #757881;
+     height: 420px;
+     margin-top: 2px;
  }
  /*box1*/
  .box1 {

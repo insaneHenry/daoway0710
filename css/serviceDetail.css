@@ -1,0 +1,175 @@
+.all-category-wrapper {
+    line-height: 85px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+
+}
+.all-category {
+    float: left;
+    font-weight: 600;
+}
+.all-category span {
+    cursor: pointer;
+    font-weight: 600;
+}
+.all-category .move {
+    color: #fb4e55;
+}
+.all-category .gt {
+    margin: 0 10px;
+    font-weight: normal;
+}
+
+.centerleft {
+    width: 1200px;
+    margin: 0 auto;
+}
+.centerleft .item-head {
+    width: 960px;
+    float: left;
+    /*margin-bottom: 10px;*/
+    height: 220px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+.item-head .pic {
+    border: 1px solid #e5e5e5;
+    margin: 30px;
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+
+.des {
+    float: left;
+    position: relative;
+    top: 25px;
+}
+.des i {
+    display: block;
+    line-height: 42px;
+    height: 42px;
+}
+.des i:nth-child(1) {
+    font-size: 18px;
+    color: #1d1515;
+}
+.des i b {
+    font-size: 20px;
+    color: #fc545e;
+    margin-left: 10px;
+}
+.des i b em {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+}
+.item-head .des i .yishou {
+    color: #fb474f;
+    margin-left: 10px;
+    font-style: normal;
+}
+.QRcode {
+    float: right;
+    margin: 20px 60px 0 0;
+}
+.QRcode img {
+    width: 115px;
+    height: 115px;
+}
+.QRcode  strong {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+.QRcode  strong:nth-child(2) {
+    color: #fb474f;
+    margin-top: 2px;
+}
+
+.item-info {
+    background: #fff;
+    padding: 30px 20px;
+    float: left;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+    width: 960px;
+}
+.item-info b {
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    margin-top: 10px;
+    width: 66px;
+    display: block;
+}
+.item-info p {
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+.item-info p i {
+    margin-left: 20px;
+}
+.item-info p i em {
+    color: #fb474f;
+    font-style: normal;
+}
+.item-info .notice {
+    background: #fffcf1;
+}
+
+.provider {
+    width: 230px;
+    float: right;
+}
+.provider-wrap {
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.provider-wrap h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+}
+.provider-wrap img {
+    text-align: center;
+    margin: 40px 50px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+}
+.provider-wrap .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.provider-wrap p {
+    text-align: left;
+    padding: 0 10px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.provider-wrap p i {
+    float: right;
+    color: #fb474f;
+}
+.qrcode {
+    width: 230px;
+    height: 290px;
+    background: url(../img/tuijianfuwushang_06.jpg) no-repeat center;
+    margin-top: 10px;
+}
+.qrcode img {
+    margin: 50px 0 0 50px;
+    width: 130px;
+}

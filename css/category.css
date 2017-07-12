@@ -278,3 +278,10 @@
     background: #fe454a;
     color: #fff;
 }
+.pagination .dot {
+    border: 0;
+    cursor: default;
+}
+.pagination .dot:hover {
+    background: transparent;
+}
